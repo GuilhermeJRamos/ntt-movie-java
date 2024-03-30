@@ -1,5 +1,5 @@
 -- Usuários
-INSERT INTO users (nome)
+INSERT INTO users (name)
 VALUES ('Guilherme'),
        ('Bernardo'),
        ('Matheus'),
@@ -7,7 +7,7 @@ VALUES ('Guilherme'),
        ('Eliébio');
 
 -- Gêneros
-INSERT INTO genres (nome)
+INSERT INTO genres (name)
 VALUES ('Aventura'),
        ('Animação'),
        ('Romance'),
@@ -15,7 +15,7 @@ VALUES ('Aventura'),
        ('Mistério');
 
 -- Estúdios
-INSERT INTO studios (país, nome)
+INSERT INTO studios (country, name)
 VALUES ('Brasil', 'Vera Cruz'),
        ('Austrália', 'Koala Pictures'),
        ('Espanha', 'Iberia Films'),
@@ -23,8 +23,8 @@ VALUES ('Brasil', 'Vera Cruz'),
        ('Coreia do Sul', 'Seoul Cinema');
 
 -- Filmes
-INSERT INTO movies (duração, id_franchise, id_gênero, imdbid, lançado, id_estúdio, país, idioma, prêmios, poster,
-                    título, enredo)
+INSERT INTO movies (runtime, franchise_id, genre_id, imdbid, released, studio_id, country, language, awards, poster,
+                    title, plot)
 VALUES (118.0, 6, 1, DEFAULT, '2022-09-30', 2, 'Austrália', 'Inglês', 'Prêmio de Melhor Filme Estrangeiro',
         'https://example.com/poster6.jpg', 'Lost in Sydney',
         'Um casal se perde nas ruas de Sydney durante uma viagem de férias.'),
@@ -42,7 +42,7 @@ VALUES (118.0, 6, 1, DEFAULT, '2022-09-30', 2, 'Austrália', 'Inglês', 'Prêmio
         'Um drama romântico ambientado em uma remota vila de pescadores espanhola.');
 
 --Franquias
-INSERT INTO franchises (nome)
+INSERT INTO franchises (name)
 VALUES ('Piratas do Caribe'),
        ('O Senhor dos Anéis'),
        ('Velozes e Furiosos'),
@@ -50,7 +50,7 @@ VALUES ('Piratas do Caribe'),
        ('Jurassic World');
 
 --Diretores
-INSERT INTO directors (data_nascimento, país, nome)
+INSERT INTO directors (birthdate, country, name)
 VALUES ('1983-07-07', 'Reino Unido', 'Christopher Nolan'),
        ('1970-12-18', 'Canadá', 'Denis Villeneuve'),
        ('1975-03-02', 'Austrália', 'Baz Luhrmann'),
@@ -58,7 +58,7 @@ VALUES ('1983-07-07', 'Reino Unido', 'Christopher Nolan'),
        ('1978-05-20', 'Espanha', 'Guillermo del Toro');
 
 --Atores
-INSERT INTO actors (data_nascimento, país, nome)
+INSERT INTO directors (birthdate, country, name)
 VALUES ('1986-11-25', 'Estados Unidos', 'Emma Stone'),
        ('1979-08-08', 'Canadá', 'Ryan Reynolds'),
        ('1990-04-04', 'Reino Unido', 'Maisie Williams'),
@@ -66,7 +66,7 @@ VALUES ('1986-11-25', 'Estados Unidos', 'Emma Stone'),
        ('1995-02-12', 'Coreia do Sul', 'Park Seo-joon');
 
 --Streammings
-INSERT INTO streammings (nome, url)
+INSERT INTO streammings (name, url)
 VALUES ('Apple TV+', 'https://www.apple.com/apple-tv-plus/'),
        ('Paramount+', 'https://www.paramountplus.com/'),
        ('Peacock', 'https://www.peacocktv.com/'),
