@@ -23,12 +23,23 @@ VALUES ('Brasil', 'Vera Cruz'),
        ('Coreia do Sul', 'Seoul Cinema');
 
 -- Filmes
-INSERT INTO filmes (duração, id_franchise, id_gênero, imdbid, lançado, id_estúdio, país)
-VALUES (118.0, 6, 1, DEFAULT, '2022-09-30', 2, 'Austrália'),
-       (142.0, 7, 4, DEFAULT, '2023-11-12', 4, 'Índia'),
-       (126.0, 8, 5, DEFAULT, '2024-03-02', 1, 'Canadá'),
-       (134.0, 9, 3, DEFAULT, '2023-07-19', 5, 'Coreia do Sul'),
-       (150.0, 10, 2, DEFAULT, '2022-05-06', 3, 'Espanha');
+INSERT INTO filmes (duração, id_franchise, id_gênero, imdbid, lançado, id_estúdio, país, idioma, prêmios, poster,
+                    título, enredo)
+VALUES (118.0, 6, 1, DEFAULT, '2022-09-30', 2, 'Austrália', 'Inglês', 'Prêmio de Melhor Filme Estrangeiro',
+        'https://example.com/poster6.jpg', 'Lost in Sydney',
+        'Um casal se perde nas ruas de Sydney durante uma viagem de férias.'),
+       (142.0, 7, 4, DEFAULT, '2023-11-12', 4, 'Índia', 'Hindi', 'Prêmio de Melhor Filme Estrangeiro',
+        'https://example.com/poster7.jpg', 'Maharaja: The Legend Begins',
+        'A história épica de um príncipe indiano lutando pela justiça e amor.'),
+       (126.0, 8, 5, DEFAULT, '2024-03-02', 1, 'Canadá', 'Inglês', 'Indicação ao Globo de Ouro de Melhor Atriz',
+        'https://example.com/poster8.jpg', 'The Secret Garden',
+        'Uma menina descobre um jardim mágico escondido em sua casa de campo.'),
+       (134.0, 9, 3, DEFAULT, '2023-07-19', 5, 'Coreia do Sul', 'Coreano', 'Prêmio de Melhor Direção de Arte',
+        'https://example.com/poster9.jpg', 'Moonlit Sonata',
+        'Um músico de rua e uma bailarina se apaixonam em Seul sob a luz do luar.'),
+       (150.0, 10, 2, DEFAULT, '2022-05-06', 3, 'Espanha', 'Espanhol', 'Prêmio Goya de Melhor Direção',
+        'https://example.com/poster10.jpg', 'La Casa del Mar',
+        'Um drama romântico ambientado em uma remota vila de pescadores espanhola.');
 
 --Franquias
 INSERT INTO franquias (nome)
