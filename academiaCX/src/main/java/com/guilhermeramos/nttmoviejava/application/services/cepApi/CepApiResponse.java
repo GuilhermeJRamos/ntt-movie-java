@@ -1,4 +1,4 @@
-package com.guilhermeramos.nttmoviejava.application.services.user;
+package com.guilhermeramos.nttmoviejava.application.services.cepApi;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

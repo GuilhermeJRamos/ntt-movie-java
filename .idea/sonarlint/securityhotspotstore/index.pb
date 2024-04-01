@@ -31,3 +31,7 @@ aacademiaCX/src/main/java/com/guilhermeramos/nttmoviejava/application/security/S
 hacademiaCX/src/main/java/com/guilhermeramos/nttmoviejava/application/security/CustomBasicAuthFilter.java,f\c\fc6553c2045780b29acce78696acdff3fcf6fe89
 –
 facademiaCX/src/main/java/com/guilhermeramos/nttmoviejava/application/facades/user/impl/UserFacade.java,6\e\6ef23f6817f0e3f7477838be8778372c6f930ba6
+Ÿ
+oacademiaCX/src/main/java/com/guilhermeramos/nttmoviejava/application/services/cepApi/CepIntegrationService.java,3\9\395c1370627ccde9d2e70207b585a395e03f407f
+˜
+hacademiaCX/src/main/java/com/guilhermeramos/nttmoviejava/application/services/cepApi/CepApiResponse.java,9\6\9636935d22fb27b7960ec1b9ef19135b6cebb86f

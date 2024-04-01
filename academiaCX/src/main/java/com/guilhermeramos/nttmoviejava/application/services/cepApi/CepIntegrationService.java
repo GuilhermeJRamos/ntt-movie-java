@@ -1,4 +1,4 @@
-package com.guilhermeramos.nttmoviejava.application.services.user;
+package com.guilhermeramos.nttmoviejava.application.services.cepApi;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
