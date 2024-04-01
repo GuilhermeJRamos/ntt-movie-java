@@ -29,14 +29,12 @@ public class UserFacade {
     private User convertToUser(UserDTO userDTO) {
         User user = new User();
         user.setName(userDTO.getName());
-        // Aqui você pode lidar com a conversão de outros campos, como filmes favoritos
         return user;
     }
 
     private UserDTO convertToUserDTO(User user) {
         UserDTO userDTO = new UserDTO();
         userDTO.setName(user.getName());
-        // Aqui você pode lidar com a conversão de outros campos, como filmes favoritos
         return userDTO;
     }
 }
