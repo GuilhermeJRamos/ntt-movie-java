@@ -1,0 +1,15 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊíÓ
+e	java:S116"PRename this field "Title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¨„æ
+m	java:S116"SRename this field "Released" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¤Õÿÿÿÿÿ
+g	java:S116"RRename this field "Runtime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¦Ã©
+d	java:S116"ORename this field "Plot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÕ
+h	java:S116"SRename this field "Language" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îÄîÜ
+f	java:S116!"RRename this field "Country" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š„’9
+k	java:S116#"QRename this field "Awards" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çíîİúÿÿÿÿ
+f	java:S116%"QRename this field "Poster" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉƒàÉ
+f	java:S116Ç"PRename this field "Genre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûèğ
+g	java:S116É"QRename this field "Studio" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œîÆÁ
+j	java:S116Ë"TRename this field "Franchise" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¦Üğ
+j	java:S116Ï"TRename this field "Directors" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËéÁ
+q	java:S116Ñ"VRename this field "Streammings" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¹ÅŒıÿÿÿÿ
