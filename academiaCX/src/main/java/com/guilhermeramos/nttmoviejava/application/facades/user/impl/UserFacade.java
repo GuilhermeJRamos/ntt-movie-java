@@ -1,4 +1,4 @@
-package com.guilhermeramos.nttmoviejava.application.facades.user;
+package com.guilhermeramos.nttmoviejava.application.facades.user.impl;
 
 import com.guilhermeramos.nttmoviejava.application.dtos.user.UserDTO;
 import com.guilhermeramos.nttmoviejava.application.entities.user.User;
